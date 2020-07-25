@@ -2,13 +2,13 @@
 
 项目架构：
 
-![image-20200717114243234](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20200717114243234.png)
+![](/img/image-20200717114243234.png)
 
-![image-20200717113141077](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20200717113141077.png)
+![image-20200717113141077](/img/image-20200717113141077.png)
 
-![image-20200717113346776](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20200717113346776.png)
+![image-20200717113346776](/img/image-20200717113346776-1595682039936.png)
 
-![image-20200717115218323](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20200717115218323.png)
+![image-20200717115218323](/img/image-20200717115218323.png)
 
 ## 秒杀项目并发优化
 
@@ -215,11 +215,11 @@ tail -f nohup.out 观察启动日志(deploy 脚本启动项目方式)
 
 未扩展时：
 
-![image-20200720114528938](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20200720114528938.png)
+![image-20200720114528938](/img/image-20200720114528938.png)
 
 扩展后：
 
-![image-20200720155114100](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20200720155114100.png)
+![image-20200720155114100](/img/image-20200720155114100.png)
 
 本项目中的使用：
 
@@ -678,7 +678,7 @@ If-Modified-Since和If-Unmodified-Since的区别是：
 
 > 请求资源的流程
 
-![image-20200720204317719](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20200720204317719.png)
+![image-20200720204317719](/img/image-20200720204317719.png)
 
 **a标签/回车刷新**：查看`max-age`是否有效，有效直接从缓存中获取，无效进入缓存协商逻辑。
 
@@ -1174,4 +1174,4 @@ public CommentResponseType createOrder() {
 ```java
 if (!orderCreateRateLimiter.tryAcquire())
      throw new BizException(EmBizError.RATELIMIT);
-```# miaosha
+```
